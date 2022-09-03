@@ -1,5 +1,6 @@
-# Entregable-digital-house
-entregable materia frontend 3 Reacjs
+# Entregable digital house 
+Certified Tech Developer
+materia frontend 3 Reacjs
 
 # Demo del proyecto
 funcionamiento de la aplicacion
