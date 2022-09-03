@@ -17,8 +17,8 @@ export default function Listado({setStock}) {
           return (
             <Item
               key={index}
-              nombre={item.nombre}
-              descripcion={item.descripcion}
+              nombre={item.producto.nombre}
+              descripcion={item.producto.descripcion}
               stock={item.stock}
               setStock={setStock}
             />

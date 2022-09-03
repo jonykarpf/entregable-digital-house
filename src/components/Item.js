@@ -11,6 +11,7 @@
 
 import React, { useState } from 'react'
 
+
 export default function Item({ nombre, descripcion, stock, setStock }) {
 
   const [cantidad, setCantidad] = useState(stock)
@@ -24,12 +25,8 @@ export default function Item({ nombre, descripcion, stock, setStock }) {
 
   return (
     <div className='producto'>
-      <h3>Zapatillas Nike Revolution 6 Next
-        Nature{nombre}</h3>
-      <p>Suma más y más kilómetros con tus Zapatillas
-        Nike Revolution 6 Next Nature, que aportan amortiquación y contort a cada paso que des
-        Su capellada transpirable y suela diseñada por computadora para una meior tracción son
-        ideales hasta para los corredores más exigentes.{descripcion}</p>
+      <h3>{nombre}</h3>
+      <p>{descripcion}</p>
       <h5>Stock: <span>{cantidad > 0 ? cantidad : 'Agotado'}</span></h5>
       <button disabled={cantidad <= 0} onClick={comprar}>Comprar</button>
     </div>
