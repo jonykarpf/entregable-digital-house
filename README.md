@@ -1,6 +1,6 @@
 # Entregable digital house 
 Certified Tech Developer
-materia frontend 3 Reacjs
+materia frontend 3 React.js
 
 # Demo del proyecto
 funcionamiento de la aplicacion
